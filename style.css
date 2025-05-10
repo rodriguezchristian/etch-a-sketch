@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+    border: 1px solid #333;
+  }
+  
+  .grid-square {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+  }
+  
+  .grid-square:hover {
+    background-color: black;
+  }
+  
+  button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
